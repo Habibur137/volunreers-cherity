@@ -22,6 +22,7 @@
   overflow: hidden;
   position: relative;
   z-index: 5;
+  color: cadetblue;
 }
 .vol-container .btn {
   width: 100%;
