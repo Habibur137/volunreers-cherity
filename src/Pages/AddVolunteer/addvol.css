@@ -1,0 +1,24 @@
+.add-vol {
+  width: 500px;
+  margin: 20px auto;
+  background: rgb(93, 234, 241);
+  padding: 20px;
+}
+.add-vol .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-vol .form input,
+textarea {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.add-vol .form input[type="submit"] {
+  background-color: rgb(232, 61, 118);
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
