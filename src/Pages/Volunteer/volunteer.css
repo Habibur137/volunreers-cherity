@@ -1,0 +1,40 @@
+.vol-container {
+  background: #f7f7f7;
+  position: relative;
+  overflow: hidden;
+}
+.vol-container:hover img {
+  transform: scale(1.5);
+}
+.vol-container:hover h3 {
+  color: rgb(36, 243, 243);
+}
+
+.vol-container img {
+  width: 100%;
+  transition: 0.4s;
+  position: relative;
+  z-index: 1;
+}
+.vol-container h3 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+}
+.vol-container .btn {
+  width: 100%;
+  background: rgb(232, 61, 118);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  border: 0;
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 20;
+}
+.vol-container .btn:hover {
+  background: rgb(224, 21, 89);
+}
